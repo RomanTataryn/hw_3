@@ -12,9 +12,8 @@ public class Circle {
 
         if (radius < 0) {
             System.out.println("радіус не може бути від'ємним. введіть число з додатнім значенням ");
-            System.out.println("Введіть радіус кола");
-
-        } else {
+            } 
+        else {
             double Area = Math.PI * radius * radius;
             System.out.println("Площа круга дорівнює " + Area);
 
